@@ -2,7 +2,7 @@
 This is an Angular App which allows users to choose and combine multiple colours which will dynamically display the resulting combined colour.
 e.g *Selecting Red and Green will result in Yellow to be displayed*.
 
-- App takes user input to allow users add their own colours dynamically, to use for combinations
+- App takes user input to allow users add their own RGB colours dynamically, to use for combinations
 - App makes use of built in Angular directives, data-binding, property binding, string interpolation and custom event binding.
 
 ## *Red and Green* Selected
