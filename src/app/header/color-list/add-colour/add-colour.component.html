@@ -1,0 +1,59 @@
+<div class="row" id="addColor">
+  <div>
+    <form>
+      <div class="col-sm-3 form-group">
+        <input
+          type="text"
+          id="name"
+          class="form-control"
+          placeholder="Colour Name"
+          required
+          #nameInput>
+      </div>
+      <div class="col-sm-2 form-group">
+          <input
+            type="number"
+            id="red"
+            class="form-control"
+            placeholder="Red (0-255)"
+            max="255"
+            min="0"
+            required
+            #redInput>
+        </div>
+
+        <div class="col-sm-2 form-group">
+            <input
+              type="number"
+              id="green"
+              class="form-control"
+              placeholder="Green (0-255)"
+              max="255"
+              min="0"
+              required
+              #greenInput>
+          </div>
+
+          <div class="col-sm-2 form-group">
+              <input
+                type="number"
+                id="red"
+                class="form-control"
+                placeholder="Blue (0-255)"
+                max="255"
+                min="0"
+                required
+                #blueInput>
+            </div>
+       
+       
+            <div class="col-sm-3">
+              <input 
+                class="btn btn-success col-sm-12" 
+                style="text-align: center"
+                type="submit"
+                (click)="onAddColor()">           
+            </div>
+    </form>
+  </div>
+</div>

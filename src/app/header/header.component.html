@@ -1,0 +1,26 @@
+<app-color-list 
+  (colorWasSelected)="selectedColor($event)" 
+  [rgb]="rgb"  
+  [redAmount]="redAmount"
+  [greenAmount]="greenAmount"
+  [blueAmount]="blueAmount">
+
+</app-color-list>
+<!-- <div class="row">
+  <div id="header">
+      <div class="ui grid">
+          <div class="four wide column">
+            <div class="ui vertical fluid tabular menu">
+              <app-color-list (colorWasSelected)="selectedColor($event)" [rgb]="rgb"></app-color-list>
+            </div>
+          </div>
+        <div class="twelve wide stretched column">
+          <div class="ui segment" [ngStyle]="{background : rgb}">
+          </div>
+        </div>
+      </div>
+  </div>
+  <p id="rgbDisplay">RGB ({{redAmount}}, {{greenAmount}}, {{blueAmount}})</p>
+  <div style="margin-bottom:50px; border-radius: .28571429rem;">
+  </div>
+</div> -->

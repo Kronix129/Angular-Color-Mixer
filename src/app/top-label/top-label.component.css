@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgb(43, 36, 77);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
